@@ -259,7 +259,7 @@
 
 
 // const Order = require('../mode/OrderModels');
-// const Produc = require('../models/ProductModel');
+// const Produc = requir('../models/ProductModel');
 
 // exports.createOrder = async (req, res) => {
 //   try {
