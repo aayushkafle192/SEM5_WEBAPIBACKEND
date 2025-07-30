@@ -285,7 +285,7 @@
 //       order: savedOrdr,
 //     });
 //   } catc (er) {
-//     console.erro4("Orde creation error:", err);
+//     console.er4("Orde creation error:", err);
 //     res.status(500).j({ error: err.message })
 //   }
 // };
