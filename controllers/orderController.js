@@ -272,7 +272,7 @@
 //     const savedOrde4 = ai order.sav();
 
 //     // Optional: Upd3 product stock
-//     f (const item of savedOrder.tems) {
+//     f (const item of sdOrder.tems) {
 //       con poduct = await Prod.findById(item.productId);
 //       i (product && prodquantity >= item.quantity) {
 //         product.qutity -= itm.quantity;
