@@ -310,7 +310,7 @@
 const Order = require('../models/OrderModels');
 const Product = require('../models/ProductModel');
 
-exports.createOrder = async (req, res) => {
+exports.createOrde = async (req, res) => {
   try {
     // Explicitly pick required fields from req.body
     const orderData = {
