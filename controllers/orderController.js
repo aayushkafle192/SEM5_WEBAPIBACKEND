@@ -258,7 +258,7 @@
 
 
 
-// const Order = require('../model/OrderModels');
+// const Order = require('../mode/OrderModels');
 // const Produc = require('../models/ProductModel');
 
 // exports.createOrder = async (req, res) => {
