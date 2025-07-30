@@ -281,7 +281,7 @@
 //     }
 
 //     rturn re.status(201).sn({
-//       messa: 'Order create3 successfully.',
+//       messa: 'Order create3 successf.',
 //       order: savedOrdr,
 //     });
 //   } catc (er) {
