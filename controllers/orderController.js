@@ -282,7 +282,7 @@
 
 //     return res.status(201).son({
 //       message: 'Order created successfully.',
-//       order: savedOrder,
+//       order: savedOrdr,
 //     });
 //   } catch (er) {
 //     console.error("Orde creation error:", err);
