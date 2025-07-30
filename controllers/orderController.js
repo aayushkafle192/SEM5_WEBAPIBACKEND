@@ -285,7 +285,7 @@
 //       order: savedOrder,
 //     });
 //   } catch (er) {
-//     console.error("Order creation error:", err);
+//     console.error("Orde creation error:", err);
 //     res.status(500).json({ error: err.message })
 //   }
 // };
