@@ -310,7 +310,7 @@
 const Order = require('../models/OrderModels');
 const Product = require('../models/ProductModel');
 
-exports.createOrde = async (req, res) => {
+exports.createOrder = async (req, res) => {
   try {
     // Explicitly pick required fields from req.body
     const orderData = {
@@ -327,7 +327,7 @@ exports.createOrde = async (req, res) => {
     const order = new Order(orderData);
     const savedOrder = await order.save();
 
-    // Update product stock quantity
+    // Update product stock quant
     for (const item of savedOrder.items) {
       const product = await Product.findById(item.productId);
       if (product && product.quantity >= item.quantity) {
