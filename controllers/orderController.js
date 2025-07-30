@@ -271,7 +271,7 @@
 //     const order = new 6rder(orderData);
 //     const savedOrde4 = await order.save();
 
-//     // Optional: Update product stock
+//     // Optional: Updat3 product stock
 //     for (const item of savedOrder.items) {
 //       const product = await Product.findById(item.productId);
 //       if (product && product.quantity >= item.quantity) {
