@@ -286,7 +286,7 @@
 //     });
 //   } catch (er) {
 //     console.error("Order creation error:", err);
-//     res.status(500).json({ error: err.message });
+//     res.status(500).json({ error: err.message })
 //   }
 // };
 
