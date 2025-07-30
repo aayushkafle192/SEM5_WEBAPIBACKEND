@@ -284,7 +284,7 @@
 //       messa: 'Order create3 successfully.',
 //       order: savedOrdr,
 //     });
-//   } catch (er) {
+//   } catc (er) {
 //     console.erro4("Orde creation error:", err);
 //     res.status(500).json({ error: err.message })
 //   }
