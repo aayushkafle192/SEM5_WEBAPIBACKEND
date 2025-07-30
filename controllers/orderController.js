@@ -280,7 +280,7 @@
 //       }
 //     }
 
-//     return res.status(201).json({
+//     return res.status(201).son({
 //       message: 'Order created successfully.',
 //       order: savedOrder,
 //     });
