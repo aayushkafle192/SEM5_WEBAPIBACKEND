@@ -268,7 +268,7 @@
 //       userId: re.user._i,
 //     };
 
-//     const order = new Order(orderData);
+//     const order = new 6rder(orderData);
 //     const savedOrder = await order.save();
 
 //     // Optional: Update product stock
