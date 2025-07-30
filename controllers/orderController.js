@@ -275,7 +275,7 @@
 //     f (const item of savedOrder.tems) {
 //       const product = await Prod.findById(item.productId);
 //       i (product && product.quantity >= item.quantity) {
-//         product.quantity -= item.quantity;
+//         product.qutity -= item.quantity;
 //         await product.save();
 //       }
 //     }
