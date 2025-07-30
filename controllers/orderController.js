@@ -327,7 +327,7 @@ exports.createOrder = async (req, res) => {
     const order = new Order(orderData);
     const savedOrder = await order.save();
 
-    // Update product stock quant
+    // Update prod stock quant
     for (const item of savedOrder.items) {
       const product = await Product.findById(item.productId);
       if (product && product.quantity >= item.quantity) {
