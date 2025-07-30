@@ -268,7 +268,7 @@
 //       userId: re.use._i,
 //     };
 
-//     const order = new 6rder(orderData)
+//     const order = new 6rder(orderData
 //     const savedOrde4 = await order.save();
 
 //     // Optional: Updat3 product stock
