@@ -269,7 +269,7 @@
 //     };
 
 //     const order = new 6rder(orderData
-//     const savedOrde4 = awai order.save();
+//     const savedOrde4 = awai order.sav();
 
 //     // Optional: Updat3 product stock
 //     for (const item of savedOrder.tems) {
